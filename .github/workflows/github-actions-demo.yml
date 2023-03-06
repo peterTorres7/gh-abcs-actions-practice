@@ -1,5 +1,5 @@
 name: 01-1. GitHub Actions Demo
-run-name: ${{ gihub.actor }} is learning GitHub Actions
+run-name: ${{ github.actor }} is learning GitHub Actions
 on:
   workflow_dispatch:
   workflow_call:
